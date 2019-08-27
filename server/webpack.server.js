@@ -19,6 +19,7 @@ const config = {
     path: path.resolve(__dirname, 'build')
   },
 
+  // To avoid node module will be loaded in the bundle
   externals: [webpackNodeExternals()]
 
 };
